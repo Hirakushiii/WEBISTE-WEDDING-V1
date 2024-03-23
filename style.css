@@ -79,6 +79,20 @@ body{
 .main-section .couple img{
     width: 100%;
 }
+.main-section .heart{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(55px);
+}
+.main-section .heart i{
+    margin: auto;
+    color: var(--pink);
+}
 /* LAPTOP */
 
 @media (max-width: 768px){
@@ -92,13 +106,16 @@ body{
 
 /* TABLET */
 
-@media (max-width: 768px){
+@media (max-width: 992px){
     html{
         font-size: 65%;
     }
     .simply-countdown > .simply-section{
         padding: 60px;
         margin: 5px;
+    }
+    .main-section .heart{
+        display: none;
     }
 }
 
@@ -119,7 +136,7 @@ body{
     .hero-section h1{
         font-size: 30px;
     }
-    /* #navbarNavAltMarkup{
-        position: relative;
-    } */
+    .main-section .couple{
+        margin-top: 25px;
+    }
 }
