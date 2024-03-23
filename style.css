@@ -43,21 +43,42 @@ body{
     color: white;
     background-color: var(--pink);
 }
-.main-section{
-    margin-top: -70px;
-    min-height: 100vh;
-    background-image: url(https://images.unsplash.com/photo-1431263154979-0982327fccbb?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+
+.mynavbar{
+    backdrop-filter: blur(3px);
 }
-/* .main-section .blur{
-    backdrop-filter: blur(5px);
-} */
 .navbar-brand{
     font-family: 'Style Script', cursive;
 }
-/* #navbarNavAltMarkup{
-    position: absolute;
-    right: 0;
-} */
+.offcanvas{
+    height: 100vh;
+}
+.offcanvas-body{
+    font-family: 'Work Sans', sans-serif;
+    text-transform: uppercase;
+}
+.main-section{
+    margin-top: calc(-4.3rem - -1px);
+    min-height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1431263154979-0982327fccbb?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    font-family: 'Work Sans', sans-serif;
+}
+.main-section .container h2{
+    padding-top: 25px;
+    font-family: 'Style Script';
+    color: var(--pink);
+    font-weight: 400;
+    font-size: 3rem;
+}
+.main-section .couple h3{
+    font-family: 'Style Script';
+    font-size: 2rem;
+    color: var(--pink);
+    font-weight: 10;
+}
+.main-section .couple img{
+    width: 100%;
+}
 /* LAPTOP */
 
 @media (max-width: 768px){
