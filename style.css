@@ -30,9 +30,11 @@ body{
 }
 .hero-section h1,
 .navbar-brand,
-.story h2{
+.story h2,
+.main-section .couple h3{
     font-family: "Style Script", cursive;
     color: var(--pink);
+    font-size: 2rem;
 }
 .hero-section p,.info-section p{
     font-family: "Work Sans", sans-serif;
@@ -55,7 +57,8 @@ body{
     height: 100vh;
 }
 .offcanvas-body,
-.story span{
+.story span,
+.gallery span{
     font-family: 'Work Sans', sans-serif;
     text-transform: uppercase;
 }
@@ -67,17 +70,14 @@ body{
 }
 .main-section .container h2{
     padding-top: 25px;
-    font-family: 'Style Script';
-    color: var(--pink);
-    font-weight: 400;
-    font-size: 3rem;
 }
-.main-section .couple h3,
-.info-section h2{
-    font-family: 'Style Script';
-    font-size: 2.5rem;
+.gallery h2,
+.info-section h2,
+.main-section .container h2{
     color: var(--pink);
-    font-weight: 10;
+    font-family: 'Style Script';
+    font-size: 4rem;
+    font-weight: 400;
 }
 .main-section .couple img{
     width: 100%;
@@ -211,6 +211,17 @@ body{
     left: -13px;
     right: auto;
 }
+.gallery .container{
+    padding-top: 90px;
+}
+.all-pic a{
+    background-size: cover;
+    background-position: center;
+    width: 85vw;
+    height: 50vh;
+    overflow: hidden;
+}
+/* MEDIA QUERY */
 /* LAPTOP */
 
 @media (max-width: 992px){
