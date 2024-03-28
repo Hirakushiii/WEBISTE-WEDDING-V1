@@ -9,7 +9,7 @@ function EnableScrool(){
     document.querySelector(":root").style.scrollBehavior = 'auto';
 }
 function DisableScrool() {
-    alert('Selamat Datang!')
+    alert('Selamat Datang! \n Silahkan cek waktu dan tempat berlangsungnya acara \n Beserta reservasi kedatangan');
     window.onscroll = () =>{}
     document.querySelector(":root").style.scrollBehavior = 'smooth';
 
