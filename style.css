@@ -25,7 +25,11 @@ body{
 .hero-section :where(h4, h1, p){
     text-shadow: var(--shadow);
 }
-.hero-section h4,
+.hero-section main h4{
+    font-family: cursive;
+    font-size: 1.2rem;
+    font-variant: small-caps;
+}
 .hero-section p,
 .hero-section p,
 .info-section p,
@@ -75,6 +79,9 @@ body{
 }
 .main-section .container h2{
     padding-top: 25px;
+}
+.main-section h3{
+    font-size: 1.3rem;
 }
 .gallery h2,
 .info-section h2,
@@ -222,6 +229,9 @@ body{
 .gallery .container{
     padding-top: 95px;
 }
+.rsvp #Nama::placeholder{
+    font-size: .6rem;
+}
 .rsvp button{
     background-color: var(--pink);
     border: none;
@@ -229,6 +239,10 @@ body{
 .rsvp button:hover{
     background-color: #fff;
     color: var(--pink);
+}
+.rsvp .rsvp-text::before{
+    content: "*";
+    color: red;
 }
 footer{
     padding: 3rem;
@@ -250,6 +264,20 @@ footer li{
 footer ul li:hover{
     opacity: 55%;
     transition: 440ms ease-in-out;
+}
+.audio-icon-wraper{
+    display: none;
+    position: fixed;
+    bottom: 2.5rem;
+    right: 2rem;
+    width: 4rem;
+    height: 4rem;
+    font-size: 4rem;
+    cursor: pointer;
+    color: rgba(255, 255, 255, .5);
+    mix-blend-mode: difference;
+    animation: rotate 4s linear infinite;
+    line-height: 0;
 }
 /* MEDIA QUERY */
 /* LAPTOP */
@@ -354,5 +382,15 @@ footer ul li:hover{
     }.rsvp .submit{
         width: 100%;
         margin-top: 0 !important;
+    }
+}
+
+/* ANIMATION KEYFRAMES */
+
+@keyframes rotate {
+    0%{
+        rotate: 0deg;
+    }100%{
+        rotate: 360deg;
     }
 }
