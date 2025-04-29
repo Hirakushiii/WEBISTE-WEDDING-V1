@@ -6,6 +6,6 @@
 - JAVASCRIPT
 - BOOTSTRAP (FrameWork).
 
-💌Jika kamu mempunyai saran dan kritik dari project ini kamu bisa langsung DM Instagramku yang ada di bio yaa..
+💌Kalau kamu mempunyai saran atau kritik dari project yang kubuat ini kamu bisa langsung DM Instagramku yang ada di bio yaa..
 
 *Kritik dan saran yang kalian berikan akan sangat berguna untukku :).
