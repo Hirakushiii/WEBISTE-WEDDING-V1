@@ -6,11 +6,9 @@ let SongOnPlay = false;
 function EnableScrool(){
     scrollTop = window.pageYOffset || document.documentElement.scrollTop;
     scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
-    
     window.onscroll = () =>{
         window.scrollTo(scrollTop, scrollLeft);
     }
-
     document.querySelector(":root").style.scrollBehavior = 'auto';
 }
 function DisableScrool() {
