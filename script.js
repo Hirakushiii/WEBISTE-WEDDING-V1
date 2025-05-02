@@ -12,7 +12,7 @@ function EnableScrool(){
     document.querySelector(":root").style.scrollBehavior = 'auto';
 }
 function DisableScrool() {
-    alert('Selamat Datang! \n Silahkan cek waktu dan tempat berlangsungnya acara \n Beserta reservasi kedatangan\n "DISCLAIMER : GUE SEBENERNYA GBGT BIKIN WEB INI, KARNA TUGAS AJA TERPAKSA BIKIN GUE...!"');
+    alert('Selamat Datang! \n Silahkan cek waktu dan tempat berlangsungnya acara \n Beserta reservasi kedatangan anda!');
     window.onscroll = () =>{}
     document.querySelector(":root").style.scrollBehavior = 'smooth';
     document.querySelector('#main-btn').setAttribute('href', '#home');
