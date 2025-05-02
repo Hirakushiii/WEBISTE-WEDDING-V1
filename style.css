@@ -9,9 +9,6 @@
 ::-webkit-scrollbar-thumb {
     background: #888; /* Warna thumb */
 }
-*{
-    overflow-x: hidden;
-}
 body{
     min-height: 4000px;
     overflow-x: hidden;
